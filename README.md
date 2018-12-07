@@ -11,7 +11,7 @@
 > - <https://www.cbr.ru/development/SXML/>
 > - пример запроса: <http://www.cbr.ru/scripts/XML_daily.asp>
 
-Для парсинга XML была выбранная библиотека **ElementTree**  
+Для парсинга XML была выбрана библиотека **ElementTree**  
 
 ```Python
 import xml.etree.ElementTree as ET

@@ -132,19 +132,23 @@ from main import converter
 def test_converer():
     assert converter(10.58, 'euro', 'dollar') == ['euro', 10.58, 'dollar', 12.12996296051229]
 ```
+
 ```> python -m pytest test_main.py```
 
-Тест провалился, так как в значение для сравнения было получено по старому курсу
+Тест провалился, так как значение для сравнения было получено по старому курсу:
+
 ![](https://github.com/python-advance/sem5-deco-1-Yalkinzsun/blob/master/%D0%98%D0%BD%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%B0%D1%8F%20%D1%81%D0%B0%D0%BC%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/1.png)
 
 ```> python -m pytest -v test_main.py```
 
 Подробное описание места "провала":
+
 ![](https://github.com/python-advance/sem5-deco-1-Yalkinzsun/blob/master/%D0%98%D0%BD%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%B0%D1%8F%20%D1%81%D0%B0%D0%BC%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/2.png)
 
 ```> python -m pytest -v test_main.py```
 
 Исправляем значение для сравнения - тест пройден!
+
 ![](https://github.com/python-advance/sem5-deco-1-Yalkinzsun/blob/master/%D0%98%D0%BD%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%B0%D1%8F%20%D1%81%D0%B0%D0%BC%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/3.png)
 
 **Вариативная самостоятельная работа** 
